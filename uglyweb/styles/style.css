@@ -58,12 +58,6 @@ p {
 .photo2 {
   display: flex;
   justify-content: right;
-  transition: transform 2s linear;
-  box-shadow: rgba(0.53) 8px;
-}
-
-.photo2:hover {
-  rotate: rotate(360);
 }
 
 .list {
@@ -182,4 +176,16 @@ a {
 span {
   color: red;
   font-size: 100px;
+}
+
+.photo4-5 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
+  margin-right: 250px;
+
+}
+
+.spicy4 {
+width: 30vw;
 }
