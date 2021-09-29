@@ -1,0 +1,147 @@
+/*HOME PAGE*/
+.listofnumbers {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  justify-content: center;
+  font-size: 3cm;
+  text-decoration: none;
+  margin-left: 150px;
+}
+
+/*NAV BAR*/
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  color: white;
+  background-color: black;
+  height: 50px;
+  font-size: 20px;
+  box-shadow: 3px 1px 4px darkgray;
+  z-index: 10;
+  position: sticky;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftsidetext {
+  padding-left: 70px;
+  padding-top: 12px;
+}
+
+.rightsidetext {
+  padding-right: 10px;
+  margin-right: 70px;
+  padding-top: 12px;
+  text-decoration: none;
+}
+
+a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(255, 217, 0);
+  color: black;
+}
+
+/*CHAT ALYSSA*/
+.box {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tooltip {
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.2s ease-in-out;
+  font-size: 64px;
+}
+
+#tooltip.show {
+  opacity: 1;
+}
+
+.alyssa_chats_all {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*PHOTO ALYSSA*/
+.photoalyssa {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photoa {
+  border: 1px solid #ccc;
+  width: 40%;
+  margin: 10px;
+}
+
+/*EMOJI*/
+/* #emoji1 {
+      position: absolute;
+      top: 4000px;
+    }
+    
+    #tooltip {
+      opacity: 0;
+      position: absolute;
+      transition: opacity 0.3s ease-in-out;
+    }
+    
+    #tooltip.show {
+      opacity: 1;
+      color: rgb(255, 217, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: black;
+    } */
+
+.q {
+  fill: black !important;
+}
+
+.ag {
+  fill: black !important;
+}
+
+.a {
+  fill: black !important;
+}
+
+.aw {
+  fill: black !important;
+}
+
+.bm {
+  fill: black !important;
+}
+
+.cc {
+  fill: black !important;
+}
+
+.bl {
+  fill: black !important;
+}
+
+.av {
+  fill: black !important;
+}
