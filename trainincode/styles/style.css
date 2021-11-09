@@ -1,0 +1,234 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  color: black;
+  background-color: white;
+  height: 50px;
+  font-size: 20px;
+  box-shadow: 3px 1px 4px lightgrey;
+  z-index: 10;
+}
+
+a {
+  margin-right: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.leftsidetext {
+  padding-left: 70px;
+  padding-top: 12px;
+}
+
+.rightsidetext {
+  padding-right: 10px;
+  margin-right: 70px;
+  padding-top: 12px;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.main0 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  padding-left: 200px;
+}
+
+.web {
+  font-family: "Inter", sans-serif;
+  font-size: 42px;
+}
+
+#box1 {
+  background-color: #5e5d5d;
+  height: 730px;
+  width: 50%;
+}
+
+.textright {
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  font-size: x-large;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: x-large;
+}
+
+span {
+  color: thistle;
+}
+
+/*CARDS*/
+p#title {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+}
+
+.cardbox {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  padding-left: 60px;
+}
+
+.cardbox1 {
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid grey;
+  border-radius: 18px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 2px 3px 4px darkgrey;
+}
+
+.cardbox2 {
+  display: inline-block;
+  margin: 15px;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  border-radius: 18px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 2px 3px 4px darkgrey;
+}
+
+.cardbox3 {
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid grey;
+  border-radius: 18px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 2px 3px 4px darkgrey;
+}
+
+.cardbox4 {
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid blue;
+  border-radius: 18px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 2px 3px 4px darkgrey;
+}
+
+.boxtext1 {
+  font-size: 45px;
+}
+
+.boxtext2 {
+  font-size: 45px;
+}
+
+.thistlebox {
+  background-color: thistle;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.boxtext3 {
+  font-size: 45px;
+  box-shadow: silver 50cm;
+}
+
+.boxtext4 {
+  font-size: 45px;
+  color: red;
+}
+
+p {
+  font-size: 30px;
+  margin: 20px;
+  letter-spacing: 2px;
+  padding-top: 40px;
+}
+
+/*CARDS 2*/
+
+.cardboxx {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.grey {
+  background-color: lightgrey;
+  border-radius: 18px;
+  width: 210px;
+  height: 200px;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+
+.cardboxx1 {
+  background-color: white;
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid grey;
+  border-radius: 18px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 2px 3px 4px darkgrey;
+}
+
+.cardboxx3 {
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid blue;
+  border-radius: 18px;
+  width: 400px;
+  height: 400px;
+  box-shadow: 2px 3px 4px darkgrey;
+}
+
+.boxtextt1 {
+  font-size: 45px;
+}
+
+.boxtextt3 {
+  font-size: 45px;
+  color: red;
+  box-shadow: silver 50cm;
+}
+
+p {
+  font-size: 30px;
+  margin: 20px;
+  letter-spacing: 2px;
+  padding-top: 40px;
+}
+
+#turn {
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 700px;
+  right: 170px;
+}
